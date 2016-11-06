@@ -13,10 +13,6 @@ Add transition to containers so they can push in and out.
 #layout,
 #menu,
 .menu-link {
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 
@@ -88,7 +84,7 @@ appears on the left side of the page.
     z-index: 1000; /* so the menu or its navicon stays above all content */
     background: #191818;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    /*-webkit-overflow-scrolling: touch;*/
 }
     /*
     All anchors inside the menu should be styled like this.
@@ -246,3 +242,15 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 }
 
+.wi-2x {
+    font-size: 2em;
+}
+.wi-3x {
+    font-size: 3em;
+}
+.wi-4x {
+    font-size: 4em;
+}
+.wi-5x {
+    font-size: 5em;
+}
