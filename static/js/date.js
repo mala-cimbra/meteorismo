@@ -35,8 +35,10 @@ function data_di_oggi()
     
     var nome_giorno = raw_giorno[data.getDay()]; // nome del giorno 0-6
     
-    var il_ritorno = [anno, nome_mese, giorno, nome_giorno];
+    //var il_ritorno = [anno, nome_mese, giorno, nome_giorno];
     
-    return il_ritorno;
+    var il_ritorno = nome_giorno + " " + giorno + " " + nome_mese + " " + anno;
+    
+    document.getElementById("data").innerHTML = il_ritorno
     
 }
