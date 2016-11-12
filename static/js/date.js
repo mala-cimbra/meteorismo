@@ -39,6 +39,6 @@ function data_di_oggi()
     
     var il_ritorno = nome_giorno + " " + giorno + " " + nome_mese + " " + anno;
     
-    document.getElementById("data").innerHTML = il_ritorno
+    document.getElementById("data").innerHTML = il_ritorno;
     
 }
