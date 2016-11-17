@@ -1,0 +1,9 @@
+[submodule "weather-icons"]
+	path = weather-icons
+	url = https://github.com/erikflowers/weather-icons
+[submodule "Font-Awesome"]
+	path = Font-Awesome
+	url = https://github.com/FortAwesome/Font-Awesome
+[submodule "pure"]
+	path = pure
+	url = https://github.com/yahoo/pure
